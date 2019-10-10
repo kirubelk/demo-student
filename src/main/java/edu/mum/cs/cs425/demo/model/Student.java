@@ -18,16 +18,14 @@ public class Student {
     private long id;
 
     
-    private int studentId;
+    private Long studentId;
     private String firstName;
     private String middleName;
     private String lastName;
-    private double cgpa;
+    private Float cgpa;
     private Date dateOfEnrollment;
     
-
     
-
 
     /**
      * @return long return the id
@@ -44,16 +42,16 @@ public class Student {
     }
 
     /**
-     * @return int return the studentId
+     * @return Long return the studentId
      */
-    public int getStudentId() {
+    public Long getStudentId() {
         return studentId;
     }
 
     /**
      * @param studentId the studentId to set
      */
-    public void setStudentId(int studentId) {
+    public void setStudentId(Long studentId) {
         this.studentId = studentId;
     }
 
@@ -100,16 +98,16 @@ public class Student {
     }
 
     /**
-     * @return double return the cgpa
+     * @return Float return the cgpa
      */
-    public double getCgpa() {
+    public Float getCgpa() {
         return cgpa;
     }
 
     /**
      * @param cgpa the cgpa to set
      */
-    public void setCgpa(double cgpa) {
+    public void setCgpa(Float cgpa) {
         this.cgpa = cgpa;
     }
 

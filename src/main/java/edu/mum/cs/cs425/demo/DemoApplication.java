@@ -24,11 +24,11 @@ public class DemoApplication implements CommandLineRunner {
 
 	void saveStudent(){
 		Student stu  = new Student();
-		stu.setStudentId(000-61-0001);
+		stu.setStudentId(000-61-0001L);
 		stu.setFirstName("Anna");
 		stu.setMiddleName("Lynn");
 		stu.setLastName("Smith");
-		stu.setCgpa(3.45);
+		stu.setCgpa(3.45f);
 		//stu.setDateOfEnrollment(New ;
 		repo.save(stu);
 
